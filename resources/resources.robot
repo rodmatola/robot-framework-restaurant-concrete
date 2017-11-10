@@ -11,9 +11,11 @@ ${campo_busca}  css = body > mt-app > div > div > div > mt-restaurants > section
 
 *** Keywords ***
 
+#Contexto
 Abrir pagina no menu restaurante
     Open Browser  ${url}  ${browser}
 
+#Cenario: Verificar existência do campo de busca
 clico na lupa
     Click Element  ${botao_lupa}
 
@@ -21,6 +23,7 @@ aparece a barra para digitar a busca
     Element Should Be Visible  ${campo_busca}
 
 
+#Cenario: Verificar se preços contém "R$"
 pesquiso "${palavra_busca}"
     Input text  ${campo_busca}  ${palavra_busca}
 
