@@ -1,6 +1,8 @@
 Para rodar esses testes voce precisa da aplicação
 [https://github.com/cod3rcursos/meat-app-final](https://github.com/cod3rcursos/meat-app-final)
 
+Versão em Ruby usando o Capybara e SitePrism no link [https://github.com/rodmatola/capybara-siteprism-restaurant-concrete](https://github.com/rodmatola/capybara-siteprism-restaurant-concrete)
+
 ## Funcionalidade: Pesquisar Restaurante
 
 	Como um cliente que adora comer
